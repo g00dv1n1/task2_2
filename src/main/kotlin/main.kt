@@ -1,6 +1,6 @@
 fun main() {
-    val likes = "56"
+    val likes = 211
 
-    if (likes.get(likes.length - 1) == '1') println("Понравилось " + likes + " человеку")
+    if (likes%10 == 1 && likes%100 != 11) println("Понравилось " + likes + " человеку")
     else println("Понравилось " + likes + " человекам")
 }
